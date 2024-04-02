@@ -1,0 +1,9 @@
+arr = [11, 22, 33, 44, 55,66,77,88,99]
+print("Array is :",arr)
+ 
+rev = arr[::-1] #reversing using list slicing
+print("Resultant new reversed array:",rev)
+
+
+Slicing concept is used in this program for reversing the array given in the program 
+which can be simply used for reversing the array 

@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Write C++ code here
+    int n,rev=0;
+    cout<<"enter the number";
+    cin>>n;
+    while(n>0)
+    {
+        rev=rev*10+n%10;
+        n=n/10;
+    }
+    cout<<"Reverse is :"<<rev<<endl;
+    
+
+    return 0;
+}
+in place of n%10 during execution it is taking only remainder of the divided number and in n/10 the whole number is didvided by 10
